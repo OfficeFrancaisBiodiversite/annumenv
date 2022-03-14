@@ -1,0 +1,621 @@
+table_schema;table_name;column_name;origin_column;primary_key;index;description;ref_geom_table_schema;ref_geom_table_name;geom_join_on;coordinates_ifproj;condition
+sas;meteo_10a12_2021;lambx;LAMBX;FALSE;FALSE;Coordonnées point interpolé L2e X Safran;;;;x;
+sas;meteo_10a12_2021;lamby;LAMBY;FALSE;FALSE;Coordonnées point interpolé L2e Y Safran;;;;y;
+sas;meteo_10a12_2021;date;DATE;FALSE;TRUE;Mois de modélisation;;;;;
+sas;meteo_10a12_2021;pretotm_mens;PRETOTM_MENS;FALSE;FALSE;Cumul de précipitations totales PRENEI et PRELIQ, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;t_mens;T_MENS;FALSE;FALSE;Température, moyenne mensuelle - unités : °C et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;evap_mens;EVAP_MENS;FALSE;FALSE;Evapotranspiration réelle, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;etp_mens;ETP_MENS;FALSE;FALSE;Evapotranspiration potentielle (cumul mensuel à partir des ETP décadaires) - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;pe_mens;PE_MENS;FALSE;FALSE;Pluies efficaces, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;swi_mens;SWI_MENS;FALSE;FALSE;Indice d humidité des sols, moyenne mensuelle - unités :  - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;drainc_mens;DRAINC_MENS;FALSE;FALSE;Drainage, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;runc_mens;RUNC_MENS;FALSE;FALSE;Ruissellemnt, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;spi1_mens;SPI1_MENS;FALSE;FALSE;Indice sècheresse des précipitations intégré sur 1 mois - unités :  - pas de temps : mensuel;;;;;
+sas;meteo_10a12_2021;ecoulement_mens;ECOULEMENT_MENS;FALSE;FALSE;Ecoulement à la base du manteau neigeux, cumul mensuel - unités : mm et dixièmes - pas de temps : mensuel;;;;;
+sas;stations_naiades;cdstationmesureeauxsurface;CdStationMesureEauxSurface;TRUE;FALSE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec les autres fichiers";;;;;
+sas;stations_naiades;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;stations_naiades;durstationmesureeauxsurface;DurStationMesureEauxSurface;FALSE;FALSE;Dureté moyenne de l’eau;;;;;
+sas;stations_naiades;coordxstationmesureeauxsurface;CoordXStationMesureEauxSurface;FALSE;FALSE;"Coordonnée X du point caractéristique de la
+station de mesure";;;;x;
+sas;stations_naiades;coordystationmesureeauxsurface;CoordYStationMesureEauxSurface;FALSE;FALSE;"Coordonnée Y du point caractéristique de la
+station de mesure";;;;y;
+sas;stations_naiades;cdprojstationmesureeauxsurface;CdProjStationMesureEauxSurface;FALSE;TRUE;"Code du type de projection des coordonnées de
+la station de mesure";;;;;
+sas;stations_naiades;libelleprojection;LibelleProjection;FALSE;FALSE;"Libellé du type projection des coordonnées de la
+station de mesure";;;;;
+sas;stations_naiades;codecommune;CodeCommune;FALSE;TRUE;Code INSEE de la commune;;;;;
+sas;stations_naiades;lbcommune;LbCommune;FALSE;FALSE;Nom de la commune d’implantation;;;;;
+sas;stations_naiades;codedepartement;CodeDepartement;FALSE;TRUE;Code INSEE du département;;;;;
+sas;stations_naiades;lbdepartement;LbDepartement;FALSE;FALSE;Nom du département;;;;;
+sas;stations_naiades;coderegion;CodeRegion;FALSE;TRUE;Code INSEE de la région;;;;;
+sas;stations_naiades;lbregion;LbRegion;FALSE;FALSE;Nom INSEE de la région;;;;;
+sas;stations_naiades;nomcoursdeau;NomCoursdEau;FALSE;FALSE;"Nom principal de l’entité hydrographique identifié
+comme cours d’eau du tronçon hydrographique
+de la station";;;;;
+sas;stations_naiades;codetypethstationmesureeauxsurface;CodeTypEthStationMesureEauxSurface;FALSE;TRUE;"Type d’entité hydrographique de la station de
+mesure";;;;;
+sas;stations_naiades;libelletypethstationmesureeauxsurface;LibelleTypEthStationMesureEauxSurface;FALSE;FALSE;"Type d’entité hydrographique de la station de
+mesure";;;;;
+sas;stations_naiades;datecreationstationmesureeauxsurface;DateCreationStationMesureEauxSurface;FALSE;FALSE;Date de création de la station de mesure;;;;;
+sas;stations_naiades;datearretactivitestationmesureeauxsurface;DateArretActiviteStationMesureEauxSurface;FALSE;FALSE;Date d’arrêt d’activité de la station de mesure;;;;;
+sas;stations_naiades;datemajinfosstationmesureeauxsurface;DateMAJInfosStationMesureEauxSurface;FALSE;FALSE;"Date de mise à jour des informations sur la station
+de mesure";;;;;
+sas;stations_naiades;finalitestationmesureeauxsurface;FinaliteStationMesureEauxSurface;FALSE;FALSE;Finalité de la station;;;;;
+sas;stations_naiades;locprecisestationmesureeauxsurface;LocPreciseStationMesureEauxSurface;FALSE;FALSE;Localisation précise de la station de mesure;;;;;
+sas;stations_naiades;codenaturestationmesureeauxsurface;CodeNatureStationMesureEauxSurface;FALSE;TRUE;Nature de la station de mesure;;;;;
+sas;stations_naiades;libellenaturestationmesureeauxsurface;LibelleNatureStationMesureEauxSurface;FALSE;FALSE;Nature de la station de mesure;;;;;
+sas;analyses_pc_naiades_1340;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1340;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1340;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1340;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1340;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1340;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1340;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1340
+sas;analyses_pc_naiades_1340;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1340;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1340;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1340;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1340;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1340;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1340;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1340;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1340;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1340;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1340;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1340;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1340;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;zones_hydro_carthage;cdzonehydr;CdZoneHydr;FALSE;TRUE;Code de zone hydrographique de surface;;;;;
+sas;zones_hydro_carthage;lbzonehydr;LbZoneHydr;FALSE;TRUE;Zone hydrographique;;;;;
+sas;zones_hydro_carthage;cdentitehy;CdEntiteHy;FALSE;TRUE;Entité hydrographique;;;;;
+sas;zones_hydro_carthage;lbsoussect;LbSousSect;FALSE;TRUE;Sous secteur hydrographique;;;;;
+sas;zones_hydro_carthage;lbsecteurh;LbSecteurH;FALSE;TRUE;Secteur hydrographique;;;;;
+sas;zones_hydro_carthage;lbregionhy;LbRegionHy;FALSE;TRUE;Région hydrographique;;;;;
+sas;analyses_pc_naiades_1339;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1339;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1339;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1339;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1339;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1339;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1339;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1339
+sas;analyses_pc_naiades_1339;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1339;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1339;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1339;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1339;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1339;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1339;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1339;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1339;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1339;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1339;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1339;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1339;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;analyses_pc_naiades_1350;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1350;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1350;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1350;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1350;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1350;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1350;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1350
+sas;analyses_pc_naiades_1350;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1350;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1350;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1350;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1350;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1350;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1350;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1350;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1350;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1350;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1350;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1350;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1350;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;analyses_pc_naiades_1433;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1433;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1433;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1433;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1433;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1433;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1433;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1433
+sas;analyses_pc_naiades_1433;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1433;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1433;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1433;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1433;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1433;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1433;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1433;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1433;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1433;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1433;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1433;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1433;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;analyses_pc_naiades_1506;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1506;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1506;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1506;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1506;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1506;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1506;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1506
+sas;analyses_pc_naiades_1506;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1506;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1506;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1506;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1506;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1506;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1506;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1506;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1506;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1506;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1506;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1506;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1506;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;analyses_pc_naiades_1551;cdstationmesureeauxsurface;CdStationMesureEauxSurface;FALSE;TRUE;"Code de la station de mesure: Identifiant de la
+station de mesure dans le référentiel national
+Sandre
+Champ permettant d’effectuer une jointure
+avec le fichier stations et opérations";sas;stations_naiades;cdstationmesureeauxsurface;;
+sas;analyses_pc_naiades_1551;lbstationmesureeauxsurface;LbStationMesureEauxSurface;FALSE;FALSE;Libellé national de la station de mesure;;;;;
+sas;analyses_pc_naiades_1551;lbsupport;LbSupport;FALSE;FALSE;Nom du support;;;;;
+sas;analyses_pc_naiades_1551;lbfractionanalysee;LbFractionAnalysee;FALSE;FALSE;Nom de la fraction analysée;;;;;
+sas;analyses_pc_naiades_1551;dateprel;DatePrel;FALSE;TRUE;"Date du début du prélèvement d’échantillons
+Champ permettant une jointure avec le fichier
+conditions environnementales";;;;;
+sas;analyses_pc_naiades_1551;heureprel;HeurePrel;FALSE;FALSE;Heure du début du prélèvement d’échantillon;;;;;
+sas;analyses_pc_naiades_1551;cdparametre;CdParametre;FALSE;TRUE;Code du paramètre de l'analyse;;;;;1551
+sas;analyses_pc_naiades_1551;lblongparametre;LbLongParamÃ¨tre;FALSE;TRUE;Libellé long du paramètre de l’analyse;;;;;
+sas;analyses_pc_naiades_1551;rsana;RsAna;FALSE;FALSE;"Résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1551;symunitemesure;SymUniteMesure;FALSE;FALSE;Symbole de l’unité de mesure;;;;;
+sas;analyses_pc_naiades_1551;mnemorqana;MnemoRqAna;FALSE;FALSE;"Mnémonique du code remarque de l'analyse
+physico-chimique et microbiologique";;;;;
+sas;analyses_pc_naiades_1551;ldana;LdAna;FALSE;FALSE;Limite de détection;;;;;
+sas;analyses_pc_naiades_1551;lqana;LqAna;FALSE;FALSE;Limite de quantification;;;;;
+sas;analyses_pc_naiades_1551;lsana;LsAna;FALSE;FALSE;Limite de saturation;;;;;
+sas;analyses_pc_naiades_1551;incertana;IncertAna;FALSE;FALSE;Incertitude analytique;;;;;
+sas;analyses_pc_naiades_1551;nommetfractionnement;NomMetFractionnement;FALSE;FALSE;Nom de la méthode de Fractionnement;;;;;
+sas;analyses_pc_naiades_1551;nommethode;NomMethode;FALSE;FALSE;"Nom de la méthode de l’analyse physico-chimique
+et microbiologique";;;;;
+sas;analyses_pc_naiades_1551;lbqualana;LbQualAna;FALSE;FALSE;"Libellé de la qualification de l’acquisition du
+résultat de l’analyse physico-chimique et
+microbiologique";;;;;
+sas;analyses_pc_naiades_1551;nomrdd;NomRdd;FALSE;FALSE;Nom du dispositif de collecte de l’analyse;;;;;
+sas;analyses_pc_naiades_1551;nomproducteur;NomProducteur;FALSE;FALSE;"Nom de l’intervenant producteur de l’analyse
+Note : précision sur la notion de producteur à
+venir dans le Sandre. Le producteur représente le
+maître d’ouvrage, ou le commanditaire de la
+donnée et prend la responsabilité d’accepter la
+donnée";;;;;
+sas;secteurs_hydro_carthage;cdsecteurh;CdSecteurH;TRUE;FALSE;Secteur hydrographique;;;;;
+sas;secteurs_hydro_carthage;lbsecteurh;LbSecteurH;FALSE;TRUE;Secteur hydrographique;;;;;
+sas;secteurs_hydro_carthage;lbregionhy;LbRegionHy;FALSE;TRUE;Région hydrographique;;;;;
+sas;rpg2020;id_parcel;ID_PARCEL;TRUE;FALSE;Identifiant parcelle RPG;;;;;
+sas;rpg2020;code_cultu;CODE_CULTU;FALSE;TRUE;Code de la culture majoritaire déclarée;;;;;
+sas;rpg2020;code_group;CODE_GROUP;FALSE;TRUE;Groupe de culture;;;;;
+sas;rpg2020;culture_d1;CULTURE_D1;FALSE;TRUE;Culture dérobée 1;;;;;
+sas;rpg2020;culture_d2;CULTURE_D2;FALSE;TRUE;Culture dérobée 2;;;;;
+sas;rpg2015;id_parcel;ID_PARCEL;FALSE;TRUE;Identifiant parcelle RPG;;;;;
+sas;rpg2015;code_cultu;CODE_CULTU;FALSE;TRUE;Code de la culture majoritaire déclarée;;;;;
+sas;rpg2015;code_group;CODE_GROUP;FALSE;TRUE;Groupe de culture;;;;;
+sas;rpg2015;culture_d1;CULTURE_D1;FALSE;TRUE;Culture dérobée 1;;;;;
+sas;rpg2015;culture_d2;CULTURE_D2;FALSE;TRUE;Culture dérobée 2;;;;;
+sas;bv_me;eu_cd;EU_CD;FALSE;TRUE;Code européen de la masse d'eau;;;;;
+sas;etat_dce;date_ref;date_ref;TRUE;TRUE;Date de référence pour le rapportage;;;;;
+sas;etat_dce;filename;fileName;FALSE;FALSE;Nom de fichier d'intégration;;;;;
+sas;etat_dce;waterbodycode;WaterBodyCode;TRUE;FALSE;WaterBodyCode;sas;bv_me;eu_cd;;
+sas;etat_dce;waterbodycategory;WaterBodyCategory;FALSE;FALSE;WaterBodyCategory;;;;;
+sas;etat_dce;chemicalstatus;ChemicalStatus;FALSE;FALSE;ChemicalStatus;;;;;
+sas;etat_dce;valueecologicalstatusorpotential;ValueEcologicalStatusOrPotential;FALSE;FALSE;ValueEcologicalStatusOrPotential;;;;;
+sas;etat_dce;confidence;Confidence;FALSE;FALSE;Confidence;;;;;
+sas;etat_dce;qe1-1 - phytoplankton;QE1-1 - Phytoplankton;FALSE;FALSE;QE1-1 - Phytoplankton;;;;;
+sas;etat_dce;qe1-2 - other aquatic flora;QE1-2 - Other aquatic flora;FALSE;FALSE;QE1-2 - Other aquatic flora;;;;;
+sas;etat_dce;qe1-2-1 - macroalgae;QE1-2-1 - Macroalgae;FALSE;FALSE;QE1-2-1 - Macroalgae;;;;;
+sas;etat_dce;qe1-2-2 - angiosperms;QE1-2-2 - Angiosperms;FALSE;FALSE;QE1-2-2 - Angiosperms;;;;;
+sas;etat_dce;qe1-2-3 - macropyhtes;QE1-2-3 - Macropyhtes;FALSE;FALSE;QE1-2-3 - Macropyhtes;;;;;
+sas;etat_dce;qe1-2-4 - phytobenthos;QE1-2-4 - Phytobenthos;FALSE;FALSE;QE1-2-4 - Phytobenthos;;;;;
+sas;etat_dce;qe1-3 - benthic invertebrates;QE1-3 - Benthic invertebrates;FALSE;FALSE;QE1-3 - Benthic invertebrates;;;;;
+sas;etat_dce;qe1-4 - fish;QE1-4 - Fish;FALSE;FALSE;QE1-4 - Fish;;;;;
+sas;etat_dce;qe1-5 - otherbiologicalqe;QE1-5 - OtherBiologicalQE;FALSE;FALSE;QE1-5 - OtherBiologicalQE;;;;;
+sas;etat_dce;qe2-1 - hydrological or tidal regime;QE2-1 - Hydrological or tidal regime;FALSE;FALSE;QE2-1 - Hydrological or tidal regime;;;;;
+sas;etat_dce;qe3-1 general physico chemical parameters;QE3-1 General physico chemical parameters;FALSE;FALSE;QE3-1 General physico chemical parameters;;;;;
+sas;etat_dce;qe3-3 - river basin specific pollutants;QE3-3 - River Basin Specific Pollutants;FALSE;FALSE;QE3-3 - River Basin Specific Pollutants;;;;;
+sas;etat_dce;cas_7440-43-9 - cadmium and its compounds;CAS_7440-43-9 - Cadmium and its compounds;FALSE;FALSE;CAS_7440-43-9 - Cadmium and its compounds;;;;;
+sas;etat_dce;cas_7439-92-1 - lead and its compounds;CAS_7439-92-1 - Lead and its compounds;FALSE;FALSE;CAS_7439-92-1 - Lead and its compounds;;;;;
+sas;etat_dce;cas_7439-97-6 - mercury and its compounds;CAS_7439-97-6 - Mercury and its compounds;FALSE;FALSE;CAS_7439-97-6 - Mercury and its compounds;;;;;
+sas;etat_dce;cas_7440-02-0 - nickel and its compounds;CAS_7440-02-0 - Nickel and its compounds;FALSE;FALSE;CAS_7440-02-0 - Nickel and its compounds;;;;;
+sas;etat_dce;cas_15972-60-8 - alachlor;CAS_15972-60-8 - Alachlor;FALSE;FALSE;CAS_15972-60-8 - Alachlor;;;;;
+sas;etat_dce;cas_1912-24-9 - atrazine;CAS_1912-24-9 - Atrazine;FALSE;FALSE;CAS_1912-24-9 - Atrazine;;;;;
+sas;etat_dce;cas_2921-88-2 - chlorpyrifos;CAS_2921-88-2 - Chlorpyrifos;FALSE;FALSE;CAS_2921-88-2 - Chlorpyrifos;;;;;
+sas;etat_dce;cas_470-90-6 - chlorfenvinphos;CAS_470-90-6 - Chlorfenvinphos;FALSE;FALSE;CAS_470-90-6 - Chlorfenvinphos;;;;;
+sas;etat_dce;cas_330-54-1 - diuron;CAS_330-54-1 - Diuron;FALSE;FALSE;CAS_330-54-1 - Diuron;;;;;
+sas;etat_dce;cas_115-29-7 - endosulfan;CAS_115-29-7 - Endosulfan;FALSE;FALSE;CAS_115-29-7 - Endosulfan;;;;;
+sas;etat_dce;cas_34123-59-6 - isoproturon;CAS_34123-59-6 - Isoproturon;FALSE;FALSE;CAS_34123-59-6 - Isoproturon;;;;;
+sas;etat_dce;cas_608-73-1 - hexachlorocyclohexane;CAS_608-73-1 - Hexachlorocyclohexane;FALSE;FALSE;CAS_608-73-1 - Hexachlorocyclohexane;;;;;
+sas;etat_dce;cas_608-93-5 - pentachlorobenzene;CAS_608-93-5 - Pentachlorobenzene;FALSE;FALSE;CAS_608-93-5 - Pentachlorobenzene;;;;;
+sas;etat_dce;cas_122-34-9 - simazine;CAS_122-34-9 - Simazine;FALSE;FALSE;CAS_122-34-9 - Simazine;;;;;
+sas;etat_dce;cas_1582-09-8 - trifluralin;CAS_1582-09-8 - Trifluralin;FALSE;FALSE;CAS_1582-09-8 - Trifluralin;;;;;
+sas;etat_dce;cas_120-12-7 - anthracene;CAS_120-12-7 - Anthracene;FALSE;FALSE;CAS_120-12-7 - Anthracene;;;;;
+sas;etat_dce;cas_71-43-2 - benzene;CAS_71-43-2 - Benzene;FALSE;FALSE;CAS_71-43-2 - Benzene;;;;;
+sas;etat_dce;eea_32-04-2 - brominated diphenylethers (congener numbers 28, 47, 99, 100, 153 and 154);EEA_32-04-2 - Brominated diphenylethers (congener numbers 28, 47, 99, 100, 153 and 154);FALSE;FALSE;EEA_32-04-2 - Brominated diphenylethers (congener numbers 28, 47, 99, 100, 153 and 154);;;;;
+sas;etat_dce;cas_56-23-5 - carbon tetrachloride;CAS_56-23-5 - Carbon tetrachloride;FALSE;FALSE;CAS_56-23-5 - Carbon tetrachloride;;;;;
+sas;etat_dce;cas_85535-84-8 - chloroalkanes c10-13;CAS_85535-84-8 - Chloroalkanes C10-13;FALSE;FALSE;CAS_85535-84-8 - Chloroalkanes C10-13;;;;;
+sas;etat_dce;cas_107-06-2 - 1,2-dichloroethane;CAS_107-06-2 - 1,2-Dichloroethane;FALSE;FALSE;CAS_107-06-2 - 1,2-Dichloroethane;;;;;
+sas;etat_dce;cas_75-09-2 - dichloromethane;CAS_75-09-2 - Dichloromethane;FALSE;FALSE;CAS_75-09-2 - Dichloromethane;;;;;
+sas;etat_dce;cas_117-81-7 - di(2-ethylhexyl)phthalate (dehp);CAS_117-81-7 - Di(2-ethylhexyl)phthalate (DEHP);FALSE;FALSE;CAS_117-81-7 - Di(2-ethylhexyl)phthalate (DEHP);;;;;
+sas;etat_dce;cas_91-20-3 - naphthalene;CAS_91-20-3 - Naphthalene;FALSE;FALSE;CAS_91-20-3 - Naphthalene;;;;;
+sas;etat_dce;cas_104-40-5 - 4-nonylphenol;CAS_104-40-5 - 4-nonylphenol;FALSE;FALSE;CAS_104-40-5 - 4-nonylphenol;;;;;
+sas;etat_dce;cas_140-66-9 - octylphenol (4-(1,1',3,3'-tetramethylbutyl)-phenol);CAS_140-66-9 - Octylphenol (4-(1,1',3,3'-tetramethylbutyl)-phenol);FALSE;FALSE;CAS_140-66-9 - Octylphenol (4-(1,1',3,3'-tetramethylbutyl)-phenol);;;;;
+sas;etat_dce;cas_127-18-4 - tetrachloroethylene;CAS_127-18-4 - Tetrachloroethylene;FALSE;FALSE;CAS_127-18-4 - Tetrachloroethylene;;;;;
+sas;etat_dce;cas_79-01-6 - trichloroethylene;CAS_79-01-6 - Trichloroethylene;FALSE;FALSE;CAS_79-01-6 - Trichloroethylene;;;;;
+sas;etat_dce;cas_67-66-3 - trichloromethane;CAS_67-66-3 - Trichloromethane;FALSE;FALSE;CAS_67-66-3 - Trichloromethane;;;;;
+sas;etat_dce;eea_32-02-0 - total cyclodiene pesticides (aldrin + dieldrin + endrin + isodrin);EEA_32-02-0 - Total cyclodiene pesticides (aldrin + dieldrin + endrin + isodrin);FALSE;FALSE;EEA_32-02-0 - Total cyclodiene pesticides (aldrin + dieldrin + endrin + isodrin);;;;;
+sas;etat_dce;eea_32-03-1 - total ddt (ddt, p,p' + ddt, o,p' + dde, p,p' + ddd, p,p');EEA_32-03-1 - Total DDT (DDT, p,p' + DDT, o,p' + DDE, p,p' + DDD, p,p');FALSE;FALSE;EEA_32-03-1 - Total DDT (DDT, p,p' + DDT, o,p' + DDE, p,p' + DDD, p,p');;;;;
+sas;etat_dce;cas_50-29-3 - ddt, p,p';CAS_50-29-3 - DDT, p,p';FALSE;FALSE;CAS_50-29-3 - DDT, p,p';;;;;
+sas;etat_dce;cas_206-44-0 - fluoranthene;CAS_206-44-0 - Fluoranthene;FALSE;FALSE;CAS_206-44-0 - Fluoranthene;;;;;
+sas;etat_dce;cas_118-74-1 - hexachlorobenzene;CAS_118-74-1 - Hexachlorobenzene;FALSE;FALSE;CAS_118-74-1 - Hexachlorobenzene;;;;;
+sas;etat_dce;cas_87-68-3 - hexachlorobutadiene;CAS_87-68-3 - Hexachlorobutadiene;FALSE;FALSE;CAS_87-68-3 - Hexachlorobutadiene;;;;;
+sas;etat_dce;cas_87-86-5 - pentachlorophenol;CAS_87-86-5 - Pentachlorophenol;FALSE;FALSE;CAS_87-86-5 - Pentachlorophenol;;;;;
+sas;etat_dce;cas_50-32-8 - benzo(a)pyrene;CAS_50-32-8 - Benzo(a)pyrene;FALSE;FALSE;CAS_50-32-8 - Benzo(a)pyrene;;;;;
+sas;etat_dce;eea_32-23-5 - total benzo(b)fluor-anthene (cas_2no5-99-2) + benzo(k)fluor-anthene (cas_2no7-no8-9);EEA_32-23-5 - Total Benzo(b)fluor-anthene (CAS_2No5-99-2) + Benzo(k)fluor-anthene (CAS_2No7-No8-9);FALSE;FALSE;EEA_32-23-5 - Total Benzo(b)fluor-anthene (CAS_2No5-99-2) + Benzo(k)fluor-anthene (CAS_2No7-No8-9);;;;;
+sas;etat_dce;cas_36643-28-4 - tributyltin-cation;CAS_36643-28-4 - Tributyltin-cation;FALSE;FALSE;CAS_36643-28-4 - Tributyltin-cation;;;;;
+sas;etat_dce;cas_12002-48-1 - trichlorobenzenes (all isomers);CAS_12002-48-1 - Trichlorobenzenes (all isomers);FALSE;FALSE;CAS_12002-48-1 - Trichlorobenzenes (all isomers);;;;;
+sas;etat_dce;1 - point source;1 - Point Source;FALSE;FALSE;1 - Point Source;;;;;
+sas;etat_dce;2 - diffuse source;2 - Diffuse Source;FALSE;FALSE;2 - Diffuse Source;;;;;
+sas;etat_dce;3 - water abstraction;3 - Water Abstraction;FALSE;FALSE;3 - Water Abstraction;;;;;
+sas;etat_dce;4 - hydromorphological pressures;4 - Hydromorphological pressures;FALSE;FALSE;4 - Hydromorphological pressures;;;;;
+sas;etat_dce;8 - other pressures;8 - Other Pressures;FALSE;FALSE;8 - Other Pressures;;;;;
+sas;soussecteurs_hydro_carthage;cdsoussect;CdSousSect;TRUE;FALSE;Code de sous secteur hydrographique;;;;;
+sas;soussecteurs_hydro_carthage;lbsoussect;LbSousSect;FALSE;TRUE;Sous secteur hydrographique;;;;;
+sas;soussecteurs_hydro_carthage;cdsecteurh;CdSecteurH;FALSE;TRUE;Secteur hydrographique;;;;;
+sas;soussecteurs_hydro_carthage;lbsecteurh;LbSecteurH;FALSE;TRUE;Secteur hydrographique;;;;;
+sas;soussecteurs_hydro_carthage;lbregionhy;LbRegionHy;FALSE;TRUE;Région hydrographique;;;;;
+sas;ventes_phyto_2020;annee_pg;annee;FALSE;TRUE;Description de la colonne;;;;;
+sas;ventes_phyto_2020;code_postal_acheteur_pg;code_postal_acheteur;FALSE;TRUE;Code postal de l'acheteur;sas;cp_ods2015;code_postal;;
+sas;ventes_phyto_2020;amm_pg;amm;FALSE;TRUE;Autorisation de mise sur le marché;;;;;
+sas;ventes_phyto_2020;substance_pg;substance;FALSE;TRUE;Nom de la substance;;;;;
+sas;ventes_phyto_2020;cas_pg;cas;FALSE;TRUE;Code CAS;;;;;
+sas;ventes_phyto_2020;quantite_substance_pg;quantite_substance;FALSE;FALSE;Quantité vendue, en kg;;;;;
+sas;ventes_phyto_2020;classification_pg;classification;FALSE;FALSE;Classification de la substance vendue;;;;;
+sas;ventes_phyto_2020;classification_mention_pg;classification_mention;FALSE;FALSE;Mention à la substance vendue;;;;;
+sas;ventes_phyto_2020;achat_etranger_pg;achat_etranger;FALSE;FALSE;Achat étra,ger Y/N;;;;;
+sas;ventes_phyto_2019;annee_pg;annee;FALSE;TRUE;Description de la colonne;;;;;
+sas;ventes_phyto_2019;code_postal_acheteur_pg;code_postal_acheteur;FALSE;TRUE;Code postal de l'acheteur;sas;cp_ods2015;code_postal;;
+sas;ventes_phyto_2019;amm_pg;amm;FALSE;TRUE;Autorisation de mise sur le marché;;;;;
+sas;ventes_phyto_2019;substance_pg;substance;FALSE;TRUE;Nom de la substance;;;;;
+sas;ventes_phyto_2019;cas_pg;cas;FALSE;TRUE;Code CAS;;;;;
+sas;ventes_phyto_2019;quantite_substance_pg;quantite_substance;FALSE;FALSE;Quantité vendue, en kg;;;;;
+sas;ventes_phyto_2019;classification_pg;classification;FALSE;FALSE;Classification de la substance vendue;;;;;
+sas;ventes_phyto_2019;classification_mention_pg;classification_mention;FALSE;FALSE;Mention à la substance vendue;;;;;
+sas;ventes_phyto_2019;achat_etranger_pg;achat_etranger;FALSE;FALSE;Achat étra,ger Y/N;;;;;
+sas;ventes_phyto_2018;annee_pg;annee;FALSE;TRUE;Description de la colonne;;;;;
+sas;ventes_phyto_2018;code_postal_acheteur_pg;code_postal_acheteur;FALSE;TRUE;Code postal de l'acheteur;sas;cp_ods2015;code_postal;;
+sas;ventes_phyto_2018;amm_pg;amm;FALSE;TRUE;Autorisation de mise sur le marché;;;;;
+sas;ventes_phyto_2018;substance_pg;substance;FALSE;TRUE;Nom de la substance;;;;;
+sas;ventes_phyto_2018;cas_pg;cas;FALSE;TRUE;Code CAS;;;;;
+sas;ventes_phyto_2018;quantite_substance_pg;quantite_substance;FALSE;FALSE;Quantité vendue, en kg;;;;;
+sas;ventes_phyto_2018;classification_pg;classification;FALSE;FALSE;Classification de la substance vendue;;;;;
+sas;ventes_phyto_2018;classification_mention_pg;classification_mention;FALSE;FALSE;Mention à la substance vendue;;;;;
+sas;ventes_phyto_2018;achat_etranger_pg;achat_etranger;FALSE;FALSE;Achat étra,ger Y/N;;;;;
+sas;exploits;name;name;FALSE;FALSE;;;;;;
+sas;exploits;type;type;FALSE;FALSE;;;;;;
+sas;zones_humides_pot_inrae;dn;dn;FALSE;FALSE;Potentiel ZH;;;;;
+sas;rga2010;cdcommune;cdcommune;FALSE;TRUE;Code géographique;sas;ref_communes;insee_com;;
+sas;rga2010;lbcommune;lbcommune;FALSE;TRUE;Libellé de commune;;;;;
+sas;rga2010;region;region;FALSE;TRUE;Région;;;;;
+sas;rga2010;departement;departement;FALSE;TRUE;Département;;;;;
+sas;rga2010;nb_exploit_agr;nb_exploit_agr;FALSE;FALSE;Exploitations agricoles ayant leur siège dans la commune;;;;;
+sas;rga2010;nb_unite_tr_agr;nb_unite_tr_agr;FALSE;FALSE;Travail dans les exploitations agricoles en unité de travail annuel;;;;;
+sas;rga2010;sau;sau;FALSE;FALSE;Superficie agricole utilisée en hectare;;;;;
+sas;rga2010;cheptel;cheptel;FALSE;FALSE;Cheptel en unité de gros bétail, tous aliments;;;;;
+sas;rga2010;otex;otex;FALSE;TRUE;Orientation technico-économique de la commune;;;;;
+sas;rga2010;sup_labour;sup_labour;FALSE;FALSE;Superficie en terres labourables en hectare;;;;;
+sas;rga2010;sup_cult_perm;sup_cult_perm;FALSE;FALSE;Superficie en cultures permanentes en hectare;;;;;
+sas;rga2010;surf_herb;surf_herb;FALSE;FALSE;Superficie toujours en herbe en hectare;;;;;
+sas;ref_communes;id;ID;TRUE;FALSE;Identifiant ADMIN EXPRESS;;;;;
+sas;ref_communes;nom;NOM;FALSE;FALSE;Nom commune;;;;;
+sas;ref_communes;nom_m;NOM_M;FALSE;FALSE;Nom commune 2;;;;;
+sas;ref_communes;insee_com;INSEE_COM;FALSE;TRUE;Code INSEE commune;;;;;
+sas;ref_communes;statut;STATUT;FALSE;FALSE;Statut de la commune;;;;;
+sas;ref_communes;population;POPULATION;FALSE;FALSE;Population communale;;;;;
+sas;ref_communes;insee_can;INSEE_CAN;FALSE;FALSE;Canton;;;;;
+sas;ref_communes;insee_arr;INSEE_ARR;FALSE;FALSE;Arrondissement;;;;;
+sas;ref_communes;insee_dep;INSEE_DEP;FALSE;FALSE;Département;;;;;
+sas;ref_communes;insee_reg;INSEE_REG;FALSE;FALSE;Région;;;;;
+sas;ref_communes;siren_epci;SIREN_EPCI;FALSE;FALSE;EPCI;;;;;
+sas;q5;id_bdcarth;ID_BDCARTH;FALSE;TRUE;Identifiant BD Carthage;;;;;
+sas;q5;code_hydro;CODE_HYDRO;FALSE;TRUE;Code Hydrographique;;;;;
+sas;q5;c_hyd_cdo;C_HYD_CDO;FALSE;TRUE;Code Hydrographique;;;;;
+sas;q5;c_ent_surf;C_ENT_SURF;FALSE;FALSE;Code Hydrographique;;;;;
+sas;q5;q5basn;Q5BASN;FALSE;FALSE;QMNA5 bas;;;;;
+sas;q5;q5moy_mn;Q5MOY_MN;FALSE;FALSE;QMNA5 moyen;;;;;
+sas;q5;q5haun;Q5HAUN;FALSE;FALSE;QMNA5 haut;;;;;
+sas;q5;q5_local;Q5_LOCAL;FALSE;FALSE;QMNA5 utilisé localement;;;;;
+sas;qa;qabasn;QABASN;FALSE;TRUE;QA bas;;;;;
+sas;qa;qamoy_mn;QAMOY_MN;FALSE;FALSE;QA moyen;;;;;
+sas;qa;qahaun;QAHAUN;FALSE;FALSE;QA haut;;;;;
+sas;qa;id_bdcarth;ID_BDCARTH;FALSE;FALSE;Identifiant BD Carthage;;;;;
+sas;qa;code_hydro;CODE_HYDRO;FALSE;TRUE;Code Hydrographique;;;;;
+sas;qa;c_hyd_cdo;C_HYD_CDO;FALSE;TRUE;Code Hydrographique;;;;;
+sas;qa;c_ent_surf;C_ENT_SURF;FALSE;TRUE;Code Hydrographique;;;;;
+sas;ref_departements;nom_m;NOM_M;FALSE;TRUE;Nom 1;;;;;
+sas;ref_departements;nom;NOM;TRUE;FALSE;Nom 2;;;;;
+sas;ref_departements;insee_dep;INSEE_DEP;FALSE;TRUE;Code INSEE du département;;;;;
+sas;ref_departements;insee_reg;INSEE_REG;FALSE;TRUE;Code INSEE de la région;;;;;
+sas;ref_regions;nom_m;NOM_M;FALSE;TRUE;Nom 1;;;;;
+sas;ref_regions;nom;NOM;TRUE;FALSE;Nom 2;;;;;
+sas;ref_regions;insee_reg;INSEE_REG;FALSE;TRUE;Code INSEE de la région;;;;;
+sas;tourisme_com;insee_com;insee_com;TRUE;FALSE;Code INSEE de la commune;;;;;
+sas;tourisme_com;nb_emplace;nb_emplace;FALSE;FALSE;Nombre d'emplacmeents de campings;;;;;
+sas;tourisme_com;nb_chambre;nb_chambre;FALSE;FALSE;Nombre de chambres;;;;;
+sas;tourisme_com;nb_lit_tou;nb_lit_tou;FALSE;FALSE;Nombre d'équivalent nuits touristiques;;;;;
+sas;tourisme_com;nb_residen;nb_residen;FALSE;FALSE;Nombre de lieux d'accueil (résidences touristiques / établissements);;;;;
+sas;onde_obs;CdSiteHydro;<CdSiteHydro>;FALSE;TRUE;Code national d’une station hydrométrique;;;;;
+sas;onde_obs;LbSiteHydro;<LbSiteHydro>;FALSE;TRUE;Nom de la station d'observation des étiages Onde;;;;;
+sas;onde_obs;Annee;<Annee>;FALSE;TRUE;Calculée à partir de date de début de la période d’observation et date de fin de période d’observation.;;;;;
+sas;onde_obs;TypeCampObservations;<TypeCampObservations>;FALSE;FALSE;Type de campagne d'observations;;;;;
+sas;onde_obs;DtRealObservation;<DtRealObservation>;FALSE;FALSE;Date de réalisation de l'observation;;;;;
+sas;onde_obs;LbRsObservationDpt;<LbRsObservationDpt>;FALSE;FALSE;Résultat de l'observation;;;;;
+sas;onde_obs;RsObservationDpt;<RsObservationDpt>;FALSE;FALSE;Résultat de l'observation;;;;;
+sas;onde_obs;LbRsObservationNat;<LbRsObservationNat>;FALSE;FALSE;Résultat de l'observation;;;;;
+sas;onde_obs;RsObservationNat;<RsObservationNat>;FALSE;FALSE;Résultat de l'observation;;;;;
+sas;onde_obs;NomEntiteHydrographique;<NomEntiteHydrographique>;FALSE;FALSE;Nom principal de l'entité hydrographique;;;;;
+sas;onde_obs;CdTronconHydrographique;<CdTronconHydrographique>;FALSE;FALSE;Code générique de l'entité hydrographique;;;;;
+sas;onde_obs;CdCommune;<CdCommune>;FALSE;FALSE;Numéro de la commune (INSEE);;;;;
+sas;onde_obs;CoordXSiteHydro;<CoordXSiteHydro>;FALSE;FALSE;Coordonnée X d’une station Onde;;;;x;
+sas;onde_obs;CoordYSiteHydro;<CoordYSiteHydro>;FALSE;FALSE;Coordonnée Y d’une station Onde;;;;y;
+sas;onde_obs;ProjCoordSiteHydro;<ProjCoordSiteHydro>;FALSE;FALSE;SRID;;;;;
+sas;roe;cdobstecou;CdObstEcou;TRUE;FALSE;CdObstEcou;;;;;
+sas;roe;stobstecou;StObstEcou;FALSE;FALSE;StObstEcou;;;;;
+sas;roe;cdmodevali;CdModeVali;FALSE;TRUE;CdModeVali;;;;;
+sas;roe;lbmodevali;LbModeVali;FALSE;FALSE;LbModeVali;;;;;
+sas;roe;cdetouvrag;CdEtOuvrag;FALSE;TRUE;CdEtOuvrag;;;;;
+sas;roe;lbetouvrag;LbEtOuvrag;FALSE;FALSE;LbEtOuvrag;;;;;
+sas;roe;nomprincip;NomPrincip;FALSE;FALSE;NomPrincip;;;;;
+sas;roe;nomseconda;NomSeconda;FALSE;FALSE;NomSeconda;;;;;
+sas;roe;cdtypeouvr;CdTypeOuvr;FALSE;TRUE;CdTypeOuvr;;;;;
+sas;roe;lbtypeouvr;LbTypeOuvr;FALSE;FALSE;LbTypeOuvr;;;;;
+sas;roe;coordxpoin;CoordXPoin;FALSE;FALSE;CoordXPoin;;;;;
+sas;roe;coordypoin;CoordYPoin;FALSE;FALSE;CoordYPoin;;;;;
+sas;roe;typecoordp;TypeCoordP;FALSE;FALSE;TypeCoordP;;;;;
+sas;roe;cdtypedisp;CdTypeDisp;FALSE;TRUE;CdTypeDisp;;;;;
+sas;roe;lbtypedisp;LbTypeDisp;FALSE;TRUE;LbTypeDisp;;;;;
+sas;roe;cdtypedi_1;CdTypeDi_1;FALSE;FALSE;CdTypeDi_1;;;;;
+sas;roe;lbtypedi_1;LbTypeDi_1;FALSE;FALSE;LbTypeDi_1;;;;;
+sas;roe;cdtypedi_2;CdTypeDi_2;FALSE;FALSE;CdTypeDi_2;;;;;
+sas;roe;lbtypedi_2;LbTypeDi_2;FALSE;FALSE;LbTypeDi_2;;;;;
+sas;roe;cdtypedi_3;CdTypeDi_3;FALSE;FALSE;CdTypeDi_3;;;;;
+sas;roe;lbtypedi_3;LbTypeDi_3;FALSE;FALSE;LbTypeDi_3;;;;;
+sas;roe;cdtypedi_4;CdTypeDi_4;FALSE;FALSE;CdTypeDi_4;;;;;
+sas;roe;lbtypedi_4;LbTypeDi_4;FALSE;FALSE;LbTypeDi_4;;;;;
+sas;roe;cdtypeelmo;CdTypeElMo;FALSE;FALSE;CdTypeElMo;;;;;
+sas;roe;lbtypeelmo;LbTypeElMo;FALSE;FALSE;LbTypeElMo;;;;;
+sas;roe;cdtypeel_1;CdTypeEl_1;FALSE;FALSE;CdTypeEl_1;;;;;
+sas;roe;lbtypeel_1;LbTypeEl_1;FALSE;FALSE;LbTypeEl_1;;;;;
+sas;roe;cdtypeel_2;CdTypeEl_2;FALSE;FALSE;CdTypeEl_2;;;;;
+sas;roe;lbtypeel_2;LbTypeEl_2;FALSE;FALSE;LbTypeEl_2;;;;;
+sas;roe;cdtypedi_5;CdTypeDi_5;FALSE;FALSE;CdTypeDi_5;;;;;
+sas;roe;lbtypedi_5;LbTypeDi_5;FALSE;FALSE;LbTypeDi_5;;;;;
+sas;roe;cdtypedi_6;CdTypeDi_6;FALSE;FALSE;CdTypeDi_6;;;;;
+sas;roe;lbtypedi_6;LbTypeDi_6;FALSE;FALSE;LbTypeDi_6;;;;;
+sas;roe;cdtypedi_7;CdTypeDi_7;FALSE;FALSE;CdTypeDi_7;;;;;
+sas;roe;lbtypedi_7;LbTypeDi_7;FALSE;FALSE;LbTypeDi_7;;;;;
+sas;roe;cdusageobs;CdUsageObs;FALSE;FALSE;CdUsageObs;;;;;
+sas;roe;lbusageobs;LbUsageObs;FALSE;FALSE;LbUsageObs;;;;;
+sas;roe;cdusageo_1;CdUsageO_1;FALSE;FALSE;CdUsageO_1;;;;;
+sas;roe;lbusageo_1;LbUsageO_1;FALSE;FALSE;LbUsageO_1;;;;;
+sas;roe;cdusageo_2;CdUsageO_2;FALSE;FALSE;CdUsageO_2;;;;;
+sas;roe;lbusageo_2;LbUsageO_2;FALSE;FALSE;LbUsageO_2;;;;;
+sas;roe;cdusageo_3;CdUsageO_3;FALSE;FALSE;CdUsageO_3;;;;;
+sas;roe;lbusageo_3;LbUsageO_3;FALSE;FALSE;LbUsageO_3;;;;;
+sas;roe;hautmaxter;HautMaxTer;FALSE;FALSE;HautMaxTer;;;;;
+sas;roe;hautchutet;HautChutEt;FALSE;FALSE;HautChutEt;;;;;
+sas;roe;cdhautchut;CdHautChut;FALSE;FALSE;CdHautChut;;;;;
+sas;roe;lbhautchut;LbHautChut;FALSE;FALSE;LbHautChut;;;;;
+sas;roe;datemajobs;DateMAJObs;FALSE;FALSE;DateMAJObs;;;;;
+sas;roe;datevalido;DateValidO;FALSE;FALSE;DateValidO;;;;;
+sas;roe;grenobstec;GrenObstEc;FALSE;FALSE;GrenObstEc;;;;;
+sas;roe;ouvragelie;OuvrageLie;FALSE;FALSE;OuvrageLie;;;;;
+sas;roe;idtronconh;IdTronconH;FALSE;FALSE;IdTronconH;;;;;
+sas;roe;nomentiteh;NomEntiteH;FALSE;FALSE;NomEntiteH;;;;;
+sas;roe;cdtronconh;CdTronconH;FALSE;FALSE;CdTronconH;;;;;
+sas;roe;cdentitehy;CdEntiteHy;FALSE;FALSE;CdEntiteHy;;;;;
+sas;roe;cdzonehydr;CdZoneHydr;FALSE;FALSE;CdZoneHydr;;;;;
+sas;roe;idtronco_1;IdTronco_1;FALSE;FALSE;IdTronco_1;;;;;
+sas;roe;cddepartem;CdDepartem;FALSE;FALSE;CdDepartem;;;;;
+sas;roe;lbdepartem;LbDepartem;FALSE;FALSE;LbDepartem;;;;;
+sas;roe;cdcommune;CdCommune;FALSE;FALSE;CdCommune;;;;;
+sas;roe;lbcommune;LbCommune;FALSE;FALSE;LbCommune;;;;;
+sas;roe;numcircadm;NumCircAdm;FALSE;FALSE;NumCircAdm;;;;;
+sas;roe;nomcircadm;NomCircAdm;FALSE;FALSE;NomCircAdm;;;;;
+sas;roe;cdeumassed;CdEuMasseD;FALSE;FALSE;CdEuMasseD;;;;;
+sas;roe;altipointc;AltiPointC;FALSE;FALSE;AltiPointC;;;;;
+sas;roe;nomlimiteh;NomLimiteH;FALSE;FALSE;NomLimiteH;;;;;
+sas;roe;denmaxouvr;DenMaxOuvr;FALSE;FALSE;DenMaxOuvr;;;;;
+sas;roe;pkobstecou;pkObstEcou;FALSE;FALSE;pkObstEcou;;;;;
+sas;ce_carthage;cdentitehy;CdEntiteHy;TRUE;FALSE;Code de l'entité hyrdographique;;;;;
+sas;ce_carthage;nomentiteh;NomEntiteH;FALSE;FALSE;Toponyme;;;;;
+sas;ce_carthage;candidat;Candidat;FALSE;FALSE;Candidat;;;;;
+sas;ce_carthage;classe;Classe;FALSE;FALSE;Classe de taille;;;;;
+sas;bdrep_em;identifiant;identifiant;FALSE;TRUE;identifiant;;;;;
+sas;bdrep_em;nom_etablissement;nom_etablissement;FALSE;FALSE;nom_etablissement;;;;;
+sas;bdrep_em;annee_emission;annee_emission;FALSE;TRUE;annee_emission;;;;;
+sas;bdrep_em;milieu;milieu;FALSE;FALSE;milieu;;;;;
+sas;bdrep_em;polluant;polluant;FALSE;FALSE;polluant;;;;;
+sas;bdrep_em;quantite;quantite;FALSE;FALSE;quantite;;;;;
+sas;bdrep_em;unite;unite;FALSE;FALSE;unite;;;;;
+sas;bdrep_etb;identifiant;identifiant;FALSE;TRUE;identifiant;;;;;
+sas;bdrep_etb;nom_etablissement;nom_etablissement;FALSE;FALSE;nom_etablissement;;;;;
+sas;bdrep_etb;numero_siret;numero_siret;FALSE;FALSE;numero_siret;;;;;
+sas;bdrep_etb;adresse;adresse;FALSE;FALSE;adresse;;;;;
+sas;bdrep_etb;code_postal;code_postal;FALSE;FALSE;code_postal;;;;;
+sas;bdrep_etb;commune;commune;FALSE;FALSE;commune;;;;;
+sas;bdrep_etb;departement;departement;FALSE;FALSE;departement;;;;;
+sas;bdrep_etb;region;region;FALSE;FALSE;region;;;;;
+sas;bdrep_etb;coordonnees_x;coordonnees_x;FALSE;FALSE;coordonnees_x;;;;x;
+sas;bdrep_etb;coordonnees_y;coordonnees_y;FALSE;FALSE;coordonnees_y;;;;y;
+sas;bdrep_etb;code_epsg;code_epsg;FALSE;FALSE;code_epsg;;;;;
+sas;bdrep_etb;code_ape;code_ape;FALSE;FALSE;code_ape;;;;;
+sas;bdrep_etb;libelle_ape;libelle_ape;FALSE;FALSE;libelle_ape;;;;;
+sas;bdrep_etb;code_eprtr;code_eprtr;FALSE;FALSE;code_eprtr;;;;;
+sas;bdrep_etb;libelle_eprtr;libelle_eprtr;FALSE;FALSE;libelle_eprtr;;;;;
+sas;bcae;dep;DEP;FALSE;TRUE;dep;;;;;
+sas;bcae;type;TYPE;FALSE;TRUE;type;;;;;
+sas;bcae;bcae;BCAE;FALSE;TRUE;bcae;;;;;
+sas;bcae;origine1;ORIGINE1;FALSE;FALSE;origine1;;;;;
+sas;bcae;origine2;ORIGINE2;FALSE;FALSE;origine2;;;;;
+sas;bcae;millesim;MILLESIM;FALSE;FALSE;millesim;;;;;
+sas;bcae;comment;COMMENT;FALSE;FALSE;comment;;;;;
+sas;rga;code_geo;Code géographique;;;Code communal;sas;ref_communes;insee_com;;
+sas;rga;n_exploit_2010;Nombre exploitations agricoles 2010;;;Nombre exploitations agricoles 2010;;;;;
+sas;rga;n_exploit_2000;Nombre exploitations agricoles 2000;;;Nombre exploitations agricoles 2000;;;;;
+sas;rga;n_exploit_1988;Nombre exploitations agricoles 1988;;;Nombre exploitations agricoles 1988;;;;;
+sas;rga;uta_2010;unités travail exploitations agricoles 2010;;;unités travail exploitations agricoles 2010;;;;;
+sas;rga;uta_2000;unités travail exploitations agricoles 2000;;;unités travail exploitations agricoles 2000;;;;;
+sas;rga;uta_1988;unités travail exploitations agricoles 1988;;;unités travail exploitations agricoles 1988;;;;;
+sas;rga;sau_2010;SAU en ha 2010;;;SAU en ha 2010;;;;;
+sas;rga;sau_2000;SAU en ha 2000;;;SAU en ha 2000;;;;;
+sas;rga;sau_1988;SAU en ha 1988;;;SAU en ha 1988;;;;;
+sas;rga;cheptel_2010;Cheptel têtes 2010;;;Cheptel têtes 2010;;;;;
+sas;rga;cheptel_2000;Cheptel têtes 2000;;;Cheptel têtes 2000;;;;;
+sas;rga;cheptel_1988;Cheptel têtes 1988;;;Cheptel têtes 1988;;;;;
+sas;rga;otex_2010;OTEX 2010;;;OTEX 2010;;;;;
+sas;rga;otex_2000;OTEX 2000;;;OTEX 2000;;;;;
+sas;rga;sa_labour_2010;SA labourable en ha 2010;;;SA labourable en ha 2010;;;;;
+sas;rga;sa_labour_2000;SA labourable en ha 2000;;;SA labourable en ha 2000;;;;;
+sas;rga;sa_labour_1988;SA labourable en ha 1988;;;SA labourable en ha 1988;;;;;
+sas;rga;cperm_2010;Cultures permanentes en ha 2010;;;Cultures permanentes en ha 2010;;;;;
+sas;rga;cperm_2000;Cultures permanentes en ha 2000;;;Cultures permanentes en ha 2000;;;;;
+sas;rga;cperm_1988;Cultures permanentes en ha 1988;;;Cultures permanentes en ha 1988;;;;;
+sas;rga;sh_2010;Superficie toujours en herbe en ha 2010;;;Superficie toujours en herbe en ha 2010;;;;;
+sas;rga;sh_2000;Superficie toujours en herbe en ha 2000;;;Superficie toujours en herbe en ha 2000;;;;;
+sas;rga;sh_1988;Superficie toujours en herbe en ha 1988;;;Superficie toujours en herbe en ha 1988;;;;;
+sas;rbio;id_resv;ID_RESV;TRUE;FALSE;ID_RESV;;;;;
+sas;rbio;id_srce;ID_SRCE;FALSE;FALSE;ID_SRCE;;;;;
+sas;rbio;nom_resv;NOM_RESV;FALSE;FALSE;NOM_RESV;;;;;
+sas;rbio;obj_assi;OBJ_ASSI;FALSE;FALSE;OBJ_ASSI;;;;;
+sas;rbio;milmaj_nat;MILMAJ_NAT;FALSE;FALSE;MILMAJ_NAT;;;;;
+sas;rbio;milmaj_reg;MILMAJ_REG;FALSE;FALSE;MILMAJ_REG;;;;;
+sas;rbio;milaso_nat;MILASO_NAT;FALSE;FALSE;MILASO_NAT;;;;;
+sas;rbio;milaso_reg;MILASO_REG;FALSE;FALSE;MILASO_REG;;;;;
+sas;rbio;delimit;DELIMIT;FALSE;FALSE;DELIMIT;;;;;
+sas;rbio;interreg;INTERREG;FALSE;FALSE;INTERREG;;;;;
+sas;rbio;reg_relie;REG_RELIE;FALSE;FALSE;REG_RELIE;;;;;
+sas;rbio;internat;INTERNAT;FALSE;FALSE;INTERNAT;;;;;
+sas;rbio;pays_relie;PAYS_RELIE;FALSE;FALSE;PAYS_RELIE;;;;;
+sas;haies;fid;fid;FALSE;FALSE;fid;;;;;
+sas;haies;date_creat;date_creat;FALSE;FALSE;date_cret;;;;;
+sas;haies;date_modif;date_modif;FALSE;FALSE;date_modif;;;;;
+sas;haies;date_d_app;date_d_app;FALSE;FALSE;date_d_app;;;;;
+sas;haies;date_de_co;date_de_co;FALSE;FALSE;date_de_co;;;;;
+sas;haies;hauteur;hauteur;FALSE;FALSE;hauteur;;;;;
+sas;haies;largeur;largeur;FALSE;FALSE;largeur;;;;;
+sas;haies;sources;sources;FALSE;FALSE;sources;;;;;
+sas;topo_res_eau;nature;nature;FALSE;FALSE;nature;;;;;
+sas;topo_res_eau;origine_du;origine_du;FALSE;FALSE;origine_du;;;;;
+sas;topo_res_eau;volume;volume;FALSE;FALSE;volume;;;;;
+sas;aac;codenatzon;CodeNatZon;FALSE;FALSE;CodeNatZon;;;;;
+sas;aac;nomzone;NomZone;FALSE;FALSE;NomZone;;;;;
+sas;aac;datecreati;DateCreati;FALSE;FALSE;DateCreati;;;;;
+sas;aac;datemajzon;DateMajZon;FALSE;FALSE;DateMajZon;;;;;
+sas;aac;auteuraac;AuteurAAC;FALSE;FALSE;AuteurAAC;;;;;
+sas;aac;comaac;ComAAC;FALSE;FALSE;ComAAC;;;;;
+sas;aac;grenelle;Grenelle;FALSE;FALSE;Grenelle;;;;;
+sas;aac;cdaltaac_1;CdAltAAC_1;FALSE;FALSE;CdAltAAC_1;;;;;
+sas;aac;orcdaltaac;OrCdAltAAC;FALSE;FALSE;OrCdAltAAC;;;;;
+sas;aac;cdaltaac_2;CdAltAAC_2;FALSE;FALSE;CdAltAAC_2;;;;;
+sas;aac;orcdalta_1;OrCdAltA_1;FALSE;FALSE;OrCdAltA_1;;;;;
+sas;aac;cdaltaac_3;CdAltAAC_3;FALSE;FALSE;CdAltAAC_3;;;;;
+sas;aac;orcdalta_2;OrCdAltA_2;FALSE;FALSE;OrCdAltA_2;;;;;
+sas;aac;numcircadm;NumCircAdm;FALSE;FALSE;NumCircAdm;;;;;
+sas;aac;nomcircadm;NomCircAdm;FALSE;FALSE;NomCircAdm;;;;;
+sas;aac;valide_ref;valide_ref;FALSE;FALSE;valide_ref;;;;;
+sas;aac;publie_sit;publie_sit;FALSE;FALSE;publie_sit;;;;;
+sas;aac;nature_per;nature_per;FALSE;FALSE;nature_per;;;;;
+sas;rnaoe;cd_wfd;cd_wfd;FALSE;FALSE;cd_wfd;;;;;
+sas;rnaoe;rnaoe;rnaoe;FALSE;FALSE;rnaoe;;;;;
+sas;rnaoe;rnaoe_eco;rnaoe_eco;FALSE;FALSE;rnaoe_eco;;;;;
+sas;rnaoe;rnaoe_chim;rnaoe_chim;FALSE;FALSE;rnaoe_chim;;;;;

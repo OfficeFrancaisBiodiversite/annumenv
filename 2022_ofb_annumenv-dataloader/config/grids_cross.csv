@@ -1,0 +1,7 @@
+name;description;code;work_grid;source_schema;source_table;condition;update_mode;srid;limit_load_size;go
+Croisement RPG  X INPN 1 km;Croisement RPG et INPN 1 km;RPG_INPN_1;INPN 1 km;sas;rpg2020;;deleteAll;2154;1000;0
+Croisement RPG  X INPN 10 km;Croisement RPG et INPN 10 km;RPG_INPN_5;INPN 10 km;sas;rpg2020;;deleteAll;2154;100;0
+Croisement RPG  X INPN 5 km;Croisement RPG et INPN 5 km;RPG_INPN_10;INPN 5 km;sas;rpg2020;;deleteAll;2154;1000;0
+Croisement CLC 2018 zones agri/phyto X INPN 1 km;Croisement CLC 2018 zones agri/phyto et INPN 1 km;CLC_18_INPN_1_PHYTO;INPN 1 km;sas;clc18;code_clc IN ('141','142','211','212','213','221','222','223','231','241','242');deleteAll;2154;1000;1
+CLC 2018 zones agri/phyto X INPN 10 km;Croisement CLC 2018 zones agri/phyto et INPN 10 km;CLC_18_INPN_10_PHYTO;INPN 10 km;sas;clc18;code_clc IN ('141','142','211','212','213','221','222','223','231','241','242');deleteAll;2154;100;0
+Croisement CLC 2018 zones agri/phyto X INPN 5 km;Croisement CLC 2018 zones agri/phyto et INPN 5 km;CLC_18_INPN_5_PHYTO;INPN 5 km;sas;clc18;code_clc IN ('141','142','211','212','213','221','222','223','231','241','242');deleteAll;2154;1000;0

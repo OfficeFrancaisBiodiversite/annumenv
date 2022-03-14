@@ -1,0 +1,6 @@
+name;description;code;source_schema;source_table;source_ucode;update_mode;srid;go
+INPN 1 km;Grille de référence nationale 1 km x 1 km, métropole, INPN;INPN_1;sas;grid_inpn1;codenat;deleteAll;2154;0
+INPN 5 km;Grille de référence nationale 5 km x 5 km, métropole, INPN;INPN_5;sas;grid_inpn5;codenat;deleteAll;2154;0
+INPN 10 km;Grille de référence nationale 10 km x 10 km, métropole, INPN;INPN_10;sas;grid_inpn10;codenat;deleteAll;2154;0
+INPN 1 km EXP;Grille de référence nationale 1 km x 1 km, métropole, INPN;INPN_1_EXP;sas;grid_exp_31;cell_code;deleteAll;2154;1
+INPN 5 km EXP;Grille de référence nationale 5 km x 5 km, métropole, INPN;INPN_5_EXP;sas;grid_exp_32;cell_code;deleteAll;2154;1

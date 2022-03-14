@@ -1,0 +1,128 @@
+table_schema;table_name;append;origin_file;dest_srid;proj_init_ifproj;description;limit_load_size;go
+sas;meteo_10a12_2021;FALSE;files/meteo_10a12_2021.csv;2154;27572;Modèle SAFRAN MéteoFrance, oct à dec 2021;1000;0
+sas;stations_naiades;FALSE;files/naiades/stations.csv;2154;2154;Stations surveillance des eaux de surface Naïades;1000;0
+sas;zones_hydro_carthage;FALSE;files/ZoneHydro_FXX2.shp;2154;2154;Zones hydrographiques de surface, BD Carthage 2019;1000;0
+sas;analyses_pc_naiades_1340;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1340;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1340;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1340;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1340;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1340;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrates;10000;0
+sas;analyses_pc_naiades_1339;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1339;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1339;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1339;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1339;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1339;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série nitrites;10000;0
+sas;analyses_pc_naiades_1350;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1350;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1350;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1350;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1350;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1350;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série phosphore total;10000;0
+sas;analyses_pc_naiades_1433;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1433;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1433;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1433;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1433;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1433;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série orthophosphates;10000;0
+sas;analyses_pc_naiades_1506;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1506;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1506;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1506;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1506;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1506;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série glyphosate;10000;0
+sas;analyses_pc_naiades_1551;FALSE;files/naiades/analyses_2020.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;analyses_pc_naiades_1551;TRUE;files/naiades/analyses_2019.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;analyses_pc_naiades_1551;TRUE;files/naiades/analyses_2018.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;analyses_pc_naiades_1551;TRUE;files/naiades/analyses_2017.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;analyses_pc_naiades_1551;TRUE;files/naiades/analyses_2016.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;analyses_pc_naiades_1551;TRUE;files/naiades/analyses_2015.csv;2154;2154;Stations surveillance des eaux de surface Naïades, série azote global;10000;0
+sas;secteurs_hydro_carthage;FALSE;files/SecteurHydro_FXX2.shp;2154;;Secteurs hydrographiques de surface, BD Carthage 2019;1000;0
+sas;rpg2020;FALSE;files/RPG/BZH/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2020 (RPG 2020);10000;0
+sas;rpg2020;TRUE;files/RPG/PACA/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2020 (RPG 2020);10000;0
+sas;rpg2020;TRUE;files/RPG/CORSE/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2020 (RPG 2020);10000;0
+sas;rpg2020;TRUE;files/RPG/PDL/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2020 (RPG 2020);10000;0
+sas;rpg2015;FALSE;files/RPG/2015/BZH/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2015 (RPG 2015);10000;0
+sas;rpg2015;TRUE;files/RPG/2015/PACA/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2015 (RPG 2015);10000;0
+sas;rpg2015;TRUE;files/RPG/2015/CORSE/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2015 (RPG 2015);10000;0
+sas;rpg2015;TRUE;files/RPG/2015/PDL/PARCELLES_GRAPHIQUES.shp;2154;;Référentiel parcellaire graphique , ASP 2015 (RPG 2015);10000;0
+sas;bv_me;FALSE;files/RPPT/BV_ME_DCE_ARPEGE/BVME.shp;2154;;Référentiel in-house OFB des masses d'eau DCE;100;0
+sas;etat_dce;FALSE;files/RPPT/synthese_dce_2010-2013-2016.csv;2154;;Résultats des rapportages DCE successifs (état des eaux);1000;0
+sas;soussecteurs_hydro_carthage;FALSE;files/SousSecteurHydro_FXX2.shp;2154;;Sous-secteurs hydrographiques de surface, BD Carthage 2019;1000;0
+sas;ventes_phyto_2019;FALSE;files/BNVD/BNVD_2020_ACHAT_CP_SUBSTANCE_BRETAGNE_2019.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2019;TRUE;files/BNVD/BNVD_2020_ACHAT_CP_SUBSTANCE_CORSE_2019.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2019;TRUE;files/BNVD/BNVD_2020_ACHAT_CP_SUBSTANCE_PROVENCE ALPES COTE D AZUR_2019.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2019;TRUE;files/BNVD/BNVD_2020_ACHAT_CP_SUBSTANCE_PAYS DE LA LOIRE_2019.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2020;FALSE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_BRETAGNE_2020.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2020;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_CORSE_2020.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2020;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_PROVENCE ALPES COTE D AZUR_2020.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2020;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_PAYS DE LA LOIRE_2020.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2018;FALSE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_BRETAGNE_2018.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2018;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_CORSE_2018.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2018;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_PROVENCE ALPES COTE D AZUR_2018.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;ventes_phyto_2018;TRUE;files/BNVD/BNVD_TRACABILITE_20211213_ACHAT_CP_SUBSTANCE_PAYS DE LA LOIRE_2018.csv;2154;;Ventes répertoriées à la BNVd, 2020;1000;0
+sas;exploits;FALSE;files/exploits.csv;;;;1000;0
+sas;zones_humides_pot_inrae_exp;FALSE;files/zh_exp.shp;2154;2154;Enveloppe des zones humides potentielles, INRAE 2016;1000;0
+sas;ref_communes;FALSE;files/refs/COMMUNE.shp;2154;4326;Référentiel ADMIN Express, communes en janvier 2022;1000;0
+sas;rga2010;FALSE;files/RGA/Donnees principales_ commune_2010.csv;2154;2154;Données principales au RGA 2010;10000;0
+sas;q5;FALSE;files/QMNA/Q5_finaux_Decembre2012.shp;2154;2154;QMNA 5 IRSTEA 2012;1000;0
+sas;qa;FALSE;files/QMNA/QA_finaux_Decembre2012.shp;2154;2154;QMNA IRSTEA 2012;1000;0
+sas;ref_departements;FALSE;files/refs/DEPARTEMENT.shp;2154;4326;Référentiel ADMIN Express, communes en janvier 2022;10;0
+sas;ref_regions;FALSE;files/refs/REGION.shp;2154;4326;Référentiel ADMIN Express, communes en janvier 2022;10;0
+sas;tourisme_com;FALSE;files/diagnostics/tourisme_insee_commune_2017/tourisme_insee_commune_2017.shp;2154;2154;Nombre de nuitées déclarées, INSEE 2017;1000;0
+sas;onde_obs;FALSE;files/onde_france_2017.csv;2154;2154;Observations du réseau ONDE;10000;0
+sas;onde_obs;TRUE;files/onde_france_2018.csv;2154;2154;Observations du réseau ONDE;10000;0
+sas;onde_obs;TRUE;files/onde_france_2019.csv;2154;2154;Observations du réseau ONDE;10000;0
+sas;onde_obs;TRUE;files/onde_france_2020.csv;2154;2154;Observations du réseau ONDE;10000;0
+sas;onde_obs;TRUE;files/onde_france_2021.csv;2154;2154;Observations du réseau ONDE;10000;0
+sas;roe;FALSE;files/roe/ObstEcoul2.shp;2154;4326;Référentiel des Obstacles à l'écoulement, 2022;10000;0
+sas;ce_carthage;FALSE;files/roe/carthage_ce.shp;2154;4326;Référentiel des cours d'eau Carthage;10000;0
+sas;bdrep_etb;FALSE;files/bdrep/2018/etablissements.csv;2154;2154;Points de rejets BDREP;10000;0
+sas;bdrep_etb;TRUE;files/bdrep/2019/etablissements.csv;2154;2154;Points de rejets BDREP;10000;0
+sas;bdrep_etb;TRUE;files/bdrep/2020/etablissements.csv;2154;2154;Points de rejets BDREP;10000;0
+sas;bdrep_em;FALSE;files/bdrep/2018/emissions.csv;;;Points de rejets BDREP;10000;0
+sas;bdrep_em;TRUE;files/bdrep/2019/emissions.csv;;;Points de rejets BDREP;10000;0
+sas;bdrep_em;TRUE;files/bdrep/2020/emissions.csv;;;Points de rejets BDREP;10000;0
+sas;bcae;FALSE;files/bcae/D02A/02A_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2022;10000;0
+sas;bcae;TRUE;files/bcae/D02B/02B_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2023;10000;0
+sas;bcae;TRUE;files/bcae/D004/004_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2024;10000;0
+sas;bcae;TRUE;files/bcae/D005/005_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2025;10000;0
+sas;bcae;TRUE;files/bcae/D006/006_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2026;10000;0
+sas;bcae;TRUE;files/bcae/D013/013_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2027;10000;0
+sas;bcae;TRUE;files/bcae/D022/022_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2028;10000;0
+sas;bcae;TRUE;files/bcae/D029/029_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2029;10000;0
+sas;bcae;TRUE;files/bcae/D035/035_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2030;10000;0
+sas;bcae;TRUE;files/bcae/D056/056_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2031;10000;0
+sas;bcae;TRUE;files/bcae/D083/083_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2032;10000;0
+sas;bcae;TRUE;files/bcae/D084/084_BCAE_lineaire.shp;2154;2154;Cours d'eau BCAE, diffusés par IGN fev. 2033;10000;0
+sas;ce_liste_1;FALSE;files/ce_listes/bretagne/Classement_L214-17-I_Liste1_L_BLB2.shp;2154;2154;"Cours d'eau ""Liste 1"" Bretagne, DREAL 2022";10000;0
+sas;ce_liste_2;FALSE;files/ce_listes/bretagne/Classement_L214-17-I_Liste2_L_BLB2.shp;2154;2154;"Cours d'eau ""Liste 1"" Bretagne, DREAL 2022";10000;0
+sas;ce_liste_1;TRUE;files/ce_listes/paca/class12.shp;2154;2154;"Cours d'eau ""Liste 1"" PACA, DREAL 2022";10000;0
+sas;ce_liste_2;TRUE;files/ce_listes/paca/class22.shp;2154;2154;"Cours d'eau ""Liste 1"" PACA, DREAL 2022";10000;0
+sas;rga;FALSE;files/RGA/rga_recap2010.csv;2154;2154;Données synthétiques RGA 1988, 2000, 2010;10000;0
+sas;rbio;FALSE;files/rbio/N_SRCE_RESERVOIR_S_000.shp;2154;2154;Réservoirs biologiques INPN 2022;10000;0
+sas;haies;FALSE;files/haies/haies_Corse.shp;2154;2154;Haies BD TOPO / HAIE déc. 2022;10000;0
+sas;haies;TRUE;files/haies/haies_53.shp;2154;2154;Haies BD TOPO / HAIE déc. 2022;10000;0
+sas;haies;TRUE;files/haies/haies_paca.shp;2154;2154;Haies BD TOPO / HAIE déc. 2022;10000;0
+sas;topo_ce;FALSE;files/hydro/ce_53.shp;2154;2154;BD TOPO déc. 2022 : cours d'eau;10000;0
+sas;topo_pe;FALSE;files/hydro/pe_53.shp;2154;2154;BD TOPO déc. 2022 : plans d'eau;10000;0
+sas;topo_surfe;FALSE;files/hydro/surf_53.shp;2154;2154;BD TOPO déc. 2022 : surfaces en eau;10000;0
+sas;topo_ce;TRUE;files/hydro/ce_paca.shp;2154;2154;BD TOPO déc. 2022 : cours d'eau;10000;0
+sas;topo_pe;TRUE;files/hydro/pe_paca.shp;2154;2154;BD TOPO déc. 2022 : plans d'eau;10000;0
+sas;topo_surfe;TRUE;files/hydro/surf_paca.shp;2154;2154;BD TOPO déc. 2022 : surfaces en eau;10000;0
+sas;topo_ce;TRUE;files/hydro/ce_corse.shp;2154;2154;BD TOPO déc. 2022 : cours d'eau;10000;0
+sas;topo_pe;TRUE;files/hydro/pe_corse.shp;2154;2154;BD TOPO déc. 2022 : plans d'eau;10000;0
+sas;topo_surfe;TRUE;files/hydro/surf_corse.shp;2154;2154;BD TOPO déc. 2022 : surfaces en eau;10000;0
+sas;topo_res_eau;FALSE;files/res_eau/rese_corse.shp;2154;2154;BD TOPO déc. 2022 : réservoirs d'eau plus de 10 m132;10000;0
+sas;topo_res_eau;TRUE;files/res_eau/rese_53.shp;2154;2154;BD TOPO déc. 2022 : réservoirs d'eau plus de 10 m²;10000;1
+sas;topo_res_eau;TRUE;files/res_eau/rese_paca.shp;2154;2154;BD TOPO déc. 2022 : réservoirs d'eau plus de 10 m131;10000;0
+sas;zv_nitrates;FALSE;files/zonvuln/ZoneVuln2.shp;2154;2154;Zones vulnérables nitrates 2020 (rapportées CE);10000;0
+sas;epandage_rpg_25;FALSE;files/enjeu_epandage_pesticides_2020/exp_rpg_rall_20_2.shp;2154;2154;Recoupement RPG 2019 et zone de proximité 25 m du bâti;100;0
+sas;aac;FALSE;files/aac/export_aac_090519_2.shp;2154;2154;Aires alimentation de captage, OIEau 2019;10000;0
+sas;rnaoe;FALSE;files/rnaoe/rnoae_metropole_mdo_2013_coursdeau.shp;2154;2154;Risque de non atteinte du bon état écologique 2013 (SDAGE);1000;0
+sas;rnaoe;FALSE;files/rnaoe/rnoae_metropole_mdo_2013_surfaceseneau.shp;2154;2154;Risque de non atteinte du bon état écologique 2013 (SDAGE);1000;0
+sas;pentes10;FALSE;files/slex_1.shp;2154;2154;Zones de pentes > 10 %, issues du MNT IGN modèle OFB 2017;100;0
+sas;pentes10;TRUE;files/slex_2.shp;2154;2154;Zones de pentes > 10 %, issues du MNT IGN modèle OFB 2017;100;0
+sas;pentes10;TRUE;files/slex_3.shp;2154;2154;Zones de pentes > 10 %, issues du MNT IGN modèle OFB 2017;100;0
+sas;pentes10;TRUE;files/slex_4.shp;2154;2154;Zones de pentes > 10 %, issues du MNT IGN modèle OFB 2017;100;0
