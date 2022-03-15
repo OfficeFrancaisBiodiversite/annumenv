@@ -1,0 +1,358 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="gdal:cliprasterbymasklayer_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="gdal:cliprasterbymasklayer" type="QString" name="alg_id"/>
+      <Option value="Découper un raster selon une couche de masque" type="QString" name="component_description"/>
+      <Option value="148.8" type="double" name="component_pos_x"/>
+      <Option value="266.40000000000003" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Input_4bande_crop">
+          <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="child_id"/>
+          <Option value="Input_4bande_crop" type="QString" name="component_description"/>
+          <Option value="387.2" type="double" name="component_pos_x"/>
+          <Option value="308.2" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Input_4bande_crop" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ALPHA_BAND">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="CROP_TO_CUTLINE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTRA">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="gdal:merge_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="KEEP_RESOLUTION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MASK">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/MyGis/GIS_datas/BDTOPO_3-0_INFOS_SHP_WGS84G_FRA_2021-09-15/MD_DEPARTEMENT.shp" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MULTITHREADING">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SET_RESOLUTION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SOURCE_CRS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="X_RESOLUTION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Y_RESOLUTION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="gdal:merge_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="gdal:merge" type="QString" name="alg_id"/>
+      <Option value="Fusionner" type="QString" name="component_description"/>
+      <Option value="120" type="double" name="component_pos_x"/>
+      <Option value="160" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="gdal:merge_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Input_4bandes.tif">
+          <Option value="gdal:merge_1" type="QString" name="child_id"/>
+          <Option value="Input_4bandes.tif" type="QString" name="component_description"/>
+          <Option value="320" type="double" name="component_pos_x"/>
+          <Option value="205" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Input_4bandes.tif" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTRA">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111801-162_L2A_T30TWT_D/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0_FRE_B2.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111801-162_L2A_T30TWT_D/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0_FRE_B3.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111801-162_L2A_T30TWT_D/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0_FRE_B4.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111801-162_L2A_T30TWT_D/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0/SENTINEL2B_20211122-111801-162_L2A_T30TWT_C_V3-0_FRE_B8.tif" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_OUTPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PCT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEPARATE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:DynamicConvert_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:DynamicConvert" type="QString" name="alg_id"/>
+      <Option value="DynamicConvert" type="QString" name="component_description"/>
+      <Option value="249.59999999999997" type="double" name="component_pos_x"/>
+      <Option value="374.40000000000003" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:DynamicConvert_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Smoo_input_4b_crop">
+          <Option value="otb:DynamicConvert_1" type="QString" name="child_id"/>
+          <Option value="Smoo_input_4b_crop" type="QString" name="component_description"/>
+          <Option value="403.20000000000005" type="double" name="component_pos_x"/>
+          <Option value="429" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Smoo_input_4b_crop" type="QString" name="name"/>
+          <Option value="out" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="all" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.grayscale.channel">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.rgb.blue">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.rgb.green">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.rgb.red">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="mask">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outmax">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="255" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outmin">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="quantile.high">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="2" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="quantile.low">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="2" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="type">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="linear" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="type.linear.gamma">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option type="Map" name="modelVariables">
+    <Option value="" type="QString" name="Input_imageS2"/>
+  </Option>
+  <Option value="Classification" type="QString" name="model_group"/>
+  <Option value="Entraînement" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="gdal:cliprasterbymasklayer_1:Input_4bande_crop">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Input_4bande_crop" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="gdal:cliprasterbymasklayer_1:Input_4bande_crop" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="gdal:merge_1:Input_4bandes.tif">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Input_4bandes.tif" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="gdal:merge_1:Input_4bandes.tif" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:DynamicConvert_1:Smoo_input_4b_crop">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Smoo_input_4b_crop" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:DynamicConvert_1:Smoo_input_4b_crop" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option name="parameters"/>
+</Option>

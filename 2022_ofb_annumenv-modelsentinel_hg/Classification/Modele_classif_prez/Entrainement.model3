@@ -1,0 +1,925 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="gdal:merge_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="gdal:merge" type="QString" name="alg_id"/>
+      <Option value="Fusionner" type="QString" name="component_description"/>
+      <Option value="120" type="double" name="component_pos_x"/>
+      <Option value="160" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="gdal:merge_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Img_smoo_merged">
+          <Option value="gdal:merge_1" type="QString" name="child_id"/>
+          <Option value="Img_smoo_merged" type="QString" name="component_description"/>
+          <Option value="320" type="double" name="component_pos_x"/>
+          <Option value="205" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Img_smoo_merged" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTRA">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/Smoo_S2A_T30UWU_20211122_4bd_crop.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111804-917_L2A_T30TVT_D/Smoo_S2A_T30UVT_20211122_4bd_crop.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111750-628_L2A_T30UVU_C_V3-0/Smoo_S2A_T30UVU_20211122_4bd_crop.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/SENTINEL2B_20211122-111801-162_L2A_T30TWT_D/Smoo_S2A_T30UWT_20211122_4bd_crop.tif" type="QString" name="static_value"/>
+          </Option>
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/teledec/Datas/S2A_MSIL2A_20211124T110401_N0301_R094_T30UXU_20211124T135907/Smoo_S2A_T30UXU_20211122_4bd_crop.tif" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_OUTPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PCT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEPARATE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="gdal:merge_2">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="gdal:merge" type="QString" name="alg_id"/>
+      <Option value="Fusionner" type="QString" name="component_description"/>
+      <Option value="520.7999999999998" type="double" name="component_pos_x"/>
+      <Option value="110.40000000000003" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="gdal:merge_2" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Img_finale">
+          <Option value="gdal:merge_2" type="QString" name="child_id"/>
+          <Option value="Img_finale" type="QString" name="component_description"/>
+          <Option value="559.9999999999999" type="double" name="component_pos_x"/>
+          <Option value="203.39999999999998" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Img_finale" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATA_TYPE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="EXTRA">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="gdal:merge_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option value="otb:BandMath_1" type="QString" name="child_id"/>
+            <Option value="out" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option value="otb:HaralickTextureExtraction_1" type="QString" name="child_id"/>
+            <Option value="out" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NODATA_OUTPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PCT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEPARATE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:BandMath" type="QString" name="alg_id"/>
+      <Option value="BandMath" type="QString" name="component_description"/>
+      <Option value="168.79999999999995" type="double" name="component_pos_x"/>
+      <Option value="266.4000000000001" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:BandMath_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="NDVI">
+          <Option value="otb:BandMath_1" type="QString" name="child_id"/>
+          <Option value="NDVI" type="QString" name="component_description"/>
+          <Option value="323.20000000000005" type="double" name="component_pos_x"/>
+          <Option value="318.6" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="NDVI" type="QString" name="name"/>
+          <Option value="out" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="(((@Input_4 - @Input_3) /(@Input_4 + @Input_3))+1)*100" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option value="gdal:merge_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:HaralickTextureExtraction_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:HaralickTextureExtraction" type="QString" name="alg_id"/>
+      <Option value="HaralickTextureExtraction" type="QString" name="component_description"/>
+      <Option value="217.5999999999999" type="double" name="component_pos_x"/>
+      <Option value="391.20000000000005" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:HaralickTextureExtraction_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Haralick">
+          <Option value="otb:HaralickTextureExtraction_1" type="QString" name="child_id"/>
+          <Option value="Haralick" type="QString" name="component_description"/>
+          <Option value="346.39999999999986" type="double" name="component_pos_x"/>
+          <Option value="435.40000000000003" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Haralick" type="QString" name="name"/>
+          <Option value="out" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channel">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option value="otb:BandMath_1" type="QString" name="child_id"/>
+            <Option value="out" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.max">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="255" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.min">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.nbbin">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="8" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xoff">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="3" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xrad">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yoff">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="3" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yrad">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="step">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="texture">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="simple" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:TrainVectorClassifier_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:TrainVectorClassifier" type="QString" name="alg_id"/>
+      <Option value="TrainVectorClassifier" type="QString" name="component_description"/>
+      <Option value="393.07452124999963" type="double" name="component_pos_x"/>
+      <Option value="590.2394492500002" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:TrainVectorClassifier_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Confusion_matric.csv">
+          <Option value="otb:TrainVectorClassifier_1" type="QString" name="child_id"/>
+          <Option value="Confusion_matric.csv" type="QString" name="component_description"/>
+          <Option value="618.6001524999996" type="double" name="component_pos_x"/>
+          <Option value="639.3235502500003" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Confusion_matric.csv" type="QString" name="name"/>
+          <Option value="io.confmatout" type="QString" name="output_name"/>
+        </Option>
+        <Option type="Map" name="Trained_mdl.mdl">
+          <Option value="otb:TrainVectorClassifier_1" type="QString" name="child_id"/>
+          <Option value="Trained_mdl.mdl" type="QString" name="component_description"/>
+          <Option value="617.5791272499996" type="double" name="component_pos_x"/>
+          <Option value="706.0804592500002" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Trained_mdl.mdl" type="QString" name="name"/>
+          <Option value="io.out" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="cfield">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="Class_Qual" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="rf" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.a">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.b">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.bpdw">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.bpms">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.eps">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.01" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.f">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="sig" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.iter">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1000" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.rdw">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.rdwm">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.sizes">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.t">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="reg" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.ann.term">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="all" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.boost.m">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.boost.r">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.95" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.boost.t">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="real" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.boost.w">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="100" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.cat">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.max">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.min">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.r">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.ra">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.01" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.dt.t">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.knn.k">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="32" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.c">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.k">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="linear" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.m">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="csvc" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.nu">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.5" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.opt">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.libsvm.prob">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.acc">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.01" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.cat">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.max">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.min">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.nbtrees">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="200" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.ra">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.rf.var">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkkm.cstats">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkkm.incentroids">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkkm.k">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="2" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkkm.maxiter">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="10" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkrf.mtry">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkrf.nbtrees">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="100" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkrf.nodesize">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="25" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="classifier.sharkrf.oobr">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0.66" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="feat">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="mean0, stdev0, min0, max0, mean1, stdev1, min1, max1, mean2, stdev2, min2, max2,mean3, stdev3, min3, max3, mean4, stdev4, min4, max4,mean5, stdev5, min5, max5,mean6, stdev6, min6, max6,mean7, stdev7, min7, max7,mean8, stdev8, min8, max8,mean9, stdev9, min9, max9,mean10, stdev10, min10, max10,&#xa;mean11, stdev11, min11, max11,mean12, stdev12, min12, max12,mean13, stdev13, min13, max13,&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="io.stats">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="io.vd">
+          <Option type="Map">
+            <Option value="otb:ZonalStatistics_1" type="QString" name="child_id"/>
+            <Option value="out.vector.filename" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="layer">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="rand">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="v">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="valid.layer">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option name="valid.vd"/>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:VectorClassifier_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:VectorClassifier" type="QString" name="alg_id"/>
+      <Option value="VectorClassifier" type="QString" name="component_description"/>
+      <Option value="169.6713931723558" type="double" name="component_pos_x"/>
+      <Option value="752.5653601534823" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:VectorClassifier_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RPG_with_prediction">
+          <Option value="otb:VectorClassifier_1" type="QString" name="child_id"/>
+          <Option value="RPG_with_prediction" type="QString" name="component_description"/>
+          <Option value="340.4975625366832" type="double" name="component_pos_x"/>
+          <Option value="834.6956900534292" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="RPG_with_prediction" type="QString" name="name"/>
+          <Option value="out" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="cfield">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="predicted" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="confmap">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="feat">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="mean0, stdev0, min0, max0,&#xa;mean1, stdev1, min1, max1,&#xa;mean2, stdev2, min2, max2,&#xa;mean3, stdev3, min3, max3,&#xa;mean5, stdev5, min5, max5,&#xa;mean6, stdev6, min6, max6,&#xa;mean7, stdev7, min7, max7,&#xa;mean8, stdev8, min8, max8,&#xa;mean9, stdev9, min9, max9,&#xa;mean10, stdev10, min10, max10,&#xa;mean11, stdev11, min11, max11,&#xa;mean12, stdev12, min12, max12,&#xa;mean13, stdev13, min13, max13,&#xa;" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:\Users\hugop\OneDrive\Documents\OFB\teledec\Datas\RPG\RPG20_VT_ZStat.shp" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="instat">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="model">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:\Users\hugop\OneDrive\Bureau\Mdl_Gers_18_couv.mdl" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:ZonalStatistics_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="otb:ZonalStatistics" type="QString" name="alg_id"/>
+      <Option value="ZonalStatistics" type="QString" name="component_description"/>
+      <Option value="596.7999999999998" type="double" name="component_pos_x"/>
+      <Option value="294.40000000000003" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="otb:ZonalStatistics_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RPG_ZStat">
+          <Option value="otb:ZonalStatistics_1" type="QString" name="child_id"/>
+          <Option value="RPG_ZStat" type="QString" name="component_description"/>
+          <Option value="670.3999999999997" type="double" name="component_pos_x"/>
+          <Option value="355.4" type="double" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="RPG_ZStat" type="QString" name="name"/>
+          <Option value="out.vector.filename" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option value="gdal:merge_2" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inbv">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inzone">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="vector" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inzone.labelimage.in">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inzone.labelimage.nodata">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inzone.vector.in">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="C:/Users/hugop/OneDrive/Documents/OFB/RPG2020/RPG20_Veroded.shp" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="inzone.vector.reproject">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="out">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="vector" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="out.raster.bv">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="double" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="out.xml.filename">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="5" type="int" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option type="Map" name="modelVariables">
+    <Option type="invalid" name="new_variable"/>
+  </Option>
+  <Option value="Classification" type="QString" name="model_group"/>
+  <Option value="Acquisition statistiques" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="gdal:merge_1:Img_smoo_merged">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Img_smoo_merged" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="gdal:merge_1:Img_smoo_merged" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="gdal:merge_2:Img_finale">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Img_finale" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="gdal:merge_2:Img_finale" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:BandMath_1:NDVI">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="NDVI" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:BandMath_1:NDVI" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:HaralickTextureExtraction_1:Haralick">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Haralick" type="QString" name="description"/>
+      <Option value="8" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:HaralickTextureExtraction_1:Haralick" type="QString" name="name"/>
+      <Option value="rasterDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:TrainVectorClassifier_1:Confusion_matric.csv">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Confusion_matric.csv" type="QString" name="description"/>
+      <Option value="Tous les fichiers (*.*)" type="QString" name="file_filter"/>
+      <Option value="8" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:TrainVectorClassifier_1:Confusion_matric.csv" type="QString" name="name"/>
+      <Option value="fileDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:TrainVectorClassifier_1:Trained_mdl.mdl">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Trained_mdl.mdl" type="QString" name="description"/>
+      <Option value="Tous les fichiers (*.*)" type="QString" name="file_filter"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:TrainVectorClassifier_1:Trained_mdl.mdl" type="QString" name="name"/>
+      <Option value="fileDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:VectorClassifier_1:RPG_with_prediction">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option value="RPG_with_prediction" type="QString" name="description"/>
+      <Option value="Tous les fichiers (*.*)" type="QString" name="file_filter"/>
+      <Option value="8" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="otb:VectorClassifier_1:RPG_with_prediction" type="QString" name="name"/>
+      <Option value="fileDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="otb:ZonalStatistics_1:RPG_ZStat">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option value="-1" type="int" name="data_type"/>
+      <Option type="invalid" name="default"/>
+      <Option value="RPG_ZStat" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option type="Map" name="metadata">
+        <Option value="out" type="QString" name="group_key"/>
+        <Option value="vector" type="QString" name="group_value"/>
+      </Option>
+      <Option value="otb:ZonalStatistics_1:RPG_ZStat" type="QString" name="name"/>
+      <Option value="vectorDestination" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option name="parameters"/>
+</Option>
